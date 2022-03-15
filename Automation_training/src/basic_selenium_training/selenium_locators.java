@@ -20,8 +20,8 @@ public class selenium_locators {
 //		Locators in Selenium
 		
 //		1. ID
-//		2. Class Name
-//		3. Name
+//		2. Name
+//		3. Class Name
 //		4. xpath
 //		5. CSS Selector
 //		6. Link Text
