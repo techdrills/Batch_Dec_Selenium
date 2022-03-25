@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="5" failed="6" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-25T09:11:01 IST" name="Suite" finished-at="2022-03-25T09:11:30 IST" duration-ms="29162">
+    <groups>
+    </groups>
+    <test started-at="2022-03-25T09:11:01 IST" name="Test" finished-at="2022-03-25T09:11:30 IST" duration-ms="29162">
+      <class name="TestNG_Basics.coolAdmin_loginTestCases">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestNG_Basics.coolAdmin_loginTestCases@4b5d6a01]" started-at="2022-03-25T09:11:01 IST" name="setup" finished-at="2022-03-25T09:11:04 IST" duration-ms="3480" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setURL()[pri:0, instance:TestNG_Basics.coolAdmin_loginTestCases@4b5d6a01]" started-at="2022-03-25T09:11:04 IST" name="setURL" finished-at="2022-03-25T09:11:06 IST" duration-ms="1532" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setURL -->
+        <test-method signature="verifyInvalidLoginTest1()[pri:0, instance:TestNG_Basics.coolAdmin_loginTestCases@4b5d6a01]" started-at="2022-03-25T09:11:06 IST" name="verifyInvalidLoginTest1" finished-at="2022-03-25T09:11:07 IST" duration-ms="1044" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Verified the title of the dashboard expected [Hostel Paradise] but found [Login]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Verified the title of the dashboard expected [Hostel Paradise] but found [Login]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at TestNG_Basics.coolAdmin_loginTestCases.verifyInvalidLoginTest1(coolAdmin_loginTestCases.java:48)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvalidLoginTest1 -->
+        <test-method is-config="true" signature="setURL()[pri:0, instance:TestNG_Basics.coolAdmin_loginTestCases@4b5d6a01]" started-at="2022-03-25T09:11:07 IST" name="setURL" finished-at="2022-03-25T09:11:07 IST" duration-ms="260" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setURL -->
+        <test-method signature="verifyInvalidLoginTest2()[pri:0, instance:TestNG_Basics.coolAdmin_loginTestCases@4b5d6a01]" started-at="2022-03-25T09:11:07 IST" name="verifyInvalidLoginTest2" finished-at="2022-03-25T09:11:08 IST" duration-ms="897" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Verified the title of the dashboard expected [Hostel Paradise] but found [Login]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Verified the title of the dashboard expected [Hostel Paradise] but found [Login]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at TestNG_Basics.coolAdmin_loginTestCases.verifyInvalidLoginTest2(coolAdmin_loginTestCases.java:58)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvalidLoginTest2 -->
+        <test-method is-config="true" signature="setURL()[pri:0, instance:TestNG_Basics.coolAdmin_loginTestCases@4b5d6a01]" started-at="2022-03-25T09:11:08 IST" name="setURL" finished-at="2022-03-25T09:11:08 IST" duration-ms="280" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setURL -->
+        <test-method signature="verifyInvalidLoginTest3()[pri:0, instance:TestNG_Basics.coolAdmin_loginTestCases@4b5d6a01]" started-at="2022-03-25T09:11:08 IST" name="verifyInvalidLoginTest3" finished-at="2022-03-25T09:11:09 IST" duration-ms="631" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Verified the title of the dashboard expected [Hostel Paradise] but found [Login]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Verified the title of the dashboard expected [Hostel Paradise] but found [Login]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at TestNG_Basics.coolAdmin_loginTestCases.verifyInvalidLoginTest3(coolAdmin_loginTestCases.java:68)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvalidLoginTest3 -->
+        <test-method is-config="true" signature="setURL()[pri:0, instance:TestNG_Basics.coolAdmin_loginTestCases@4b5d6a01]" started-at="2022-03-25T09:11:09 IST" name="setURL" finished-at="2022-03-25T09:11:09 IST" duration-ms="408" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setURL -->
+        <test-method signature="verifyInvalidLoginTest4()[pri:0, instance:TestNG_Basics.coolAdmin_loginTestCases@4b5d6a01]" started-at="2022-03-25T09:11:09 IST" name="verifyInvalidLoginTest4" finished-at="2022-03-25T09:11:10 IST" duration-ms="455" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Verified the title of the dashboard expected [Hostel Paradise] but found [Login]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Verified the title of the dashboard expected [Hostel Paradise] but found [Login]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at TestNG_Basics.coolAdmin_loginTestCases.verifyInvalidLoginTest4(coolAdmin_loginTestCases.java:79)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvalidLoginTest4 -->
+        <test-method is-config="true" signature="setURL()[pri:0, instance:TestNG_Basics.coolAdmin_loginTestCases@4b5d6a01]" started-at="2022-03-25T09:11:10 IST" name="setURL" finished-at="2022-03-25T09:11:10 IST" duration-ms="295" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setURL -->
+        <test-method signature="verifyInvalidLoginTest5()[pri:0, instance:TestNG_Basics.coolAdmin_loginTestCases@4b5d6a01]" started-at="2022-03-25T09:11:10 IST" name="verifyInvalidLoginTest5" finished-at="2022-03-25T09:11:10 IST" duration-ms="313" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Verified the title of the dashboard expected [Hostel Paradise] but found [Login]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Verified the title of the dashboard expected [Hostel Paradise] but found [Login]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at TestNG_Basics.coolAdmin_loginTestCases.verifyInvalidLoginTest5(coolAdmin_loginTestCases.java:89)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvalidLoginTest5 -->
+        <test-method is-config="true" signature="setURL()[pri:0, instance:TestNG_Basics.coolAdmin_loginTestCases@4b5d6a01]" started-at="2022-03-25T09:11:10 IST" name="setURL" finished-at="2022-03-25T09:11:11 IST" duration-ms="229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setURL -->
+        <test-method signature="verifyInvalidLoginTest6()[pri:0, instance:TestNG_Basics.coolAdmin_loginTestCases@4b5d6a01]" started-at="2022-03-25T09:11:11 IST" name="verifyInvalidLoginTest6" finished-at="2022-03-25T09:11:11 IST" duration-ms="396" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Verified the title of the dashboard expected [Hostel Paradise] but found [Login]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Verified the title of the dashboard expected [Hostel Paradise] but found [Login]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at TestNG_Basics.coolAdmin_loginTestCases.verifyInvalidLoginTest6(coolAdmin_loginTestCases.java:100)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvalidLoginTest6 -->
+        <test-method is-config="true" signature="setURL()[pri:0, instance:TestNG_Basics.coolAdmin_loginTestCases@4b5d6a01]" started-at="2022-03-25T09:11:11 IST" name="setURL" finished-at="2022-03-25T09:11:11 IST" duration-ms="282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setURL -->
+        <test-method signature="verifyValidLoginTest()[pri:0, instance:TestNG_Basics.coolAdmin_loginTestCases@4b5d6a01]" started-at="2022-03-25T09:11:11 IST" name="verifyValidLoginTest" finished-at="2022-03-25T09:11:14 IST" duration-ms="2907" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyValidLoginTest -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:TestNG_Basics.coolAdmin_loginTestCases@4b5d6a01]" started-at="2022-03-25T09:11:14 IST" name="browserClose" finished-at="2022-03-25T09:11:14 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+      </class> <!-- TestNG_Basics.coolAdmin_loginTestCases -->
+      <class name="TestNG_Basics.TestNG_Annotations">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:TestNG_Basics.TestNG_Annotations@35047d03]" started-at="2022-03-25T09:11:01 IST" name="beforeSuite" finished-at="2022-03-25T09:11:01 IST" duration-ms="25" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:TestNG_Basics.TestNG_Annotations@35047d03]" started-at="2022-03-25T09:11:01 IST" name="beforeTest" finished-at="2022-03-25T09:11:01 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:TestNG_Basics.TestNG_Annotations@35047d03]" started-at="2022-03-25T09:11:01 IST" name="beforeClass" finished-at="2022-03-25T09:11:01 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestNG_Basics.TestNG_Annotations@35047d03]" started-at="2022-03-25T09:11:01 IST" name="beforeMethod" finished-at="2022-03-25T09:11:01 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testcase1()[pri:0, instance:TestNG_Basics.TestNG_Annotations@35047d03]" started-at="2022-03-25T09:11:01 IST" name="testcase1" finished-at="2022-03-25T09:11:01 IST" duration-ms="21" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase1 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestNG_Basics.TestNG_Annotations@35047d03]" started-at="2022-03-25T09:11:01 IST" name="afterMethod" finished-at="2022-03-25T09:11:01 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestNG_Basics.TestNG_Annotations@35047d03]" started-at="2022-03-25T09:11:01 IST" name="beforeMethod" finished-at="2022-03-25T09:11:01 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testcase2()[pri:0, instance:TestNG_Basics.TestNG_Annotations@35047d03]" started-at="2022-03-25T09:11:01 IST" name="testcase2" finished-at="2022-03-25T09:11:01 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase2 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestNG_Basics.TestNG_Annotations@35047d03]" started-at="2022-03-25T09:11:01 IST" name="afterMethod" finished-at="2022-03-25T09:11:01 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:TestNG_Basics.TestNG_Annotations@35047d03]" started-at="2022-03-25T09:11:01 IST" name="afterClass" finished-at="2022-03-25T09:11:01 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:TestNG_Basics.TestNG_Annotations@35047d03]" started-at="2022-03-25T09:11:30 IST" name="afterTest" finished-at="2022-03-25T09:11:30 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:TestNG_Basics.TestNG_Annotations@35047d03]" started-at="2022-03-25T09:11:30 IST" name="afterSuite" finished-at="2022-03-25T09:11:30 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- TestNG_Basics.TestNG_Annotations -->
+      <class name="TestNG_Basics.menuLinks_TestCases">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestNG_Basics.menuLinks_TestCases@4a22f9e2]" started-at="2022-03-25T09:11:14 IST" name="setup" finished-at="2022-03-25T09:11:17 IST" duration-ms="2570" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setURL()[pri:0, instance:TestNG_Basics.menuLinks_TestCases@4a22f9e2]" started-at="2022-03-25T09:11:17 IST" name="setURL" finished-at="2022-03-25T09:11:22 IST" duration-ms="5085" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setURL -->
+        <test-method signature="verifyMenu_addNewStudent()[pri:0, instance:TestNG_Basics.menuLinks_TestCases@4a22f9e2]" started-at="2022-03-25T09:11:22 IST" name="verifyMenu_addNewStudent" finished-at="2022-03-25T09:11:24 IST" duration-ms="2363" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMenu_addNewStudent -->
+        <test-method is-config="true" signature="setURL()[pri:0, instance:TestNG_Basics.menuLinks_TestCases@4a22f9e2]" started-at="2022-03-25T09:11:24 IST" name="setURL" finished-at="2022-03-25T09:11:27 IST" duration-ms="2483" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setURL -->
+        <test-method signature="verifyMenu_admittedStudent()[pri:0, instance:TestNG_Basics.menuLinks_TestCases@4a22f9e2]" started-at="2022-03-25T09:11:27 IST" name="verifyMenu_admittedStudent" finished-at="2022-03-25T09:11:29 IST" duration-ms="2372" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMenu_admittedStudent -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:TestNG_Basics.menuLinks_TestCases@4a22f9e2]" started-at="2022-03-25T09:11:29 IST" name="browserClose" finished-at="2022-03-25T09:11:30 IST" duration-ms="655" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+      </class> <!-- TestNG_Basics.menuLinks_TestCases -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
