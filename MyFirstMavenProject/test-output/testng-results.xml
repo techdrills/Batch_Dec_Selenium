@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-29T08:31:06 IST" name="Default suite" finished-at="2022-03-29T08:31:17 IST" duration-ms="10689">
+    <groups>
+    </groups>
+    <test started-at="2022-03-29T08:31:06 IST" name="Default test" finished-at="2022-03-29T08:31:17 IST" duration-ms="10689">
+      <class name="onlineTestExam_testNG.login">
+        <test-method is-config="true" signature="setup()[pri:0, instance:onlineTestExam_testNG.login@dd8ba08]" started-at="2022-03-29T08:31:06 IST" name="setup" finished-at="2022-03-29T08:31:11 IST" duration-ms="5224" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setURL()[pri:0, instance:onlineTestExam_testNG.login@dd8ba08]" started-at="2022-03-29T08:31:11 IST" name="setURL" finished-at="2022-03-29T08:31:13 IST" duration-ms="1502" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setURL -->
+        <test-method signature="verifyInvalidUserLogin()[pri:0, instance:onlineTestExam_testNG.login@dd8ba08]" started-at="2022-03-29T08:31:13 IST" name="verifyInvalidUserLogin" finished-at="2022-03-29T08:31:13 IST" duration-ms="39" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvalidUserLogin -->
+        <test-method is-config="true" signature="setURL()[pri:0, instance:onlineTestExam_testNG.login@dd8ba08]" started-at="2022-03-29T08:31:13 IST" name="setURL" finished-at="2022-03-29T08:31:13 IST" duration-ms="345" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setURL -->
+        <test-method signature="verifyValidUserLogin()[pri:0, instance:onlineTestExam_testNG.login@dd8ba08]" started-at="2022-03-29T08:31:13 IST" name="verifyValidUserLogin" finished-at="2022-03-29T08:31:17 IST" duration-ms="3485" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyValidUserLogin -->
+      </class> <!-- onlineTestExam_testNG.login -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
