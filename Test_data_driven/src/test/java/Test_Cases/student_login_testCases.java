@@ -17,8 +17,9 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class student_login_testCases {
 	
 	public static WebDriver driver;
-	public static excelUtility read = new excelUtility("F:\\selenium_files\\testData.xlsx");
-	public static String sheetname = "login_test_data";
+	//public static excelUtility read = new excelUtility("F:\\selenium_files\\testData.xlsx");
+	excelUtility read = new excelUtility("F:\\selenium_files\\student_data.xlsx");
+	public static String sheetname = "student_login";
 	
 	@BeforeClass
 	public void setup() {
