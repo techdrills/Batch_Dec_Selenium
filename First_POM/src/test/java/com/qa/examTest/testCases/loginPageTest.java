@@ -33,6 +33,7 @@ public class loginPageTest extends baseClass{
 		login.verifyInvalidLogin();
 		String errText = driver.switchTo().alert().getText();
 		Assert.assertEquals(errText, "Wrong Username or Password");
+	
 	}
 
 	

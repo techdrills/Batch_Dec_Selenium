@@ -44,7 +44,7 @@ public class loginPage extends baseClass {
 		SignInButton.sendKeys(Keys.TAB, Keys.TAB);
 		userNameTextbox.sendKeys(prop.getProperty("invalidUsername"));
 		passwordTextbox.sendKeys(prop.getProperty("invalidPassword"));
-		logInButton.click();		
+		logInButton.click();
 	}
 	
 	

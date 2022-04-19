@@ -12,15 +12,19 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.opera.OperaDriver;
 
+import com.qa.examTest.utilities.excelUtility;
+
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class baseClass {
 	
 	public static Properties prop;
+	public static excelUtility reader;
 	public static WebDriver driver;
 	
 	public baseClass() {
 		try {
+			reader = new excelUtility("F:\\selenium_files\\student_data.xlsx");
 			prop = new Properties();
 			FileInputStream ip =new FileInputStream("F:\\Test_Projects\\First_POM\\src\\main\\java\\com\\qa\\examTest\\config\\config.properties");
 			prop.load(ip);
